@@ -11,6 +11,7 @@
 }
 body{
     min-width: 1400px;
+    font-family: 'Roboto', sans-serif;
 }
 /*******************************************************
  header section ****************************************/
@@ -128,7 +129,7 @@ ul>li{
 
 /* MAIN SECTION******************************************* 
 **********************************************************/
-
+/* three columns section */
 .three_columns{
     width: 80%;
     margin: auto;
@@ -159,3 +160,50 @@ div.three_columns_general p{
     font-size: 1.25rem;
 
 }
+.line{
+    color: #D3D3D3;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 0%;
+    top: 180px;
+}
+/* two column section */
+.two_columns{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 0%;
+    top: 180px;
+
+}
+.first_column, .second_column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#mountain{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+.second_column{
+    text-align: left;
+    width: 22%;
+    position: relative;
+    top: 50px;
+    left: 170px;
+}
+aside.second_column h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+aside.second_column p{
+    font-family: 'Roboto', sans-serif;
+    color: #818181;
+    margin-bottom: 0.75rem;
+}
+
