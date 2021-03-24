@@ -132,23 +132,30 @@ ul>li{
 .three_columns{
     width: 80%;
     margin: auto;
-    background-color: blue;
     position: relative;
     left: 0%;
     top: 180px;
 }
 
-.three_columns_general{
-    
-}
 .left_column, .central_column, .right_column{
     width: 25%;
-    background-color: orangered;
     float: left;
     margin: 45px 65px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 .img_container{
-    width: 300px;
+    width: 250px;
     height: 300px;
+}
+div h3{
+    color: #7CBB02;
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+div.three_columns_general p{
+    color: #818181;
+    font-size: 1.25rem;
+
 }
