@@ -24,22 +24,22 @@ header{
 }
 /* navbar */
 .nav_bar{
-    height: 30px;
+    height: 40px;
     width: 80%;
     margin: auto;
-    line-height: 30px;
+    line-height: 40px;
     vertical-align: middle;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 0.75rem;
 }
 .logo{
-    width: 15%;
+    width: 10%;
     float: left;
     
 }
 .left_menu{
-    width: 45%;
+    width: 50%;
     float: left;
 }
 .right_menu{
@@ -68,5 +68,40 @@ ul>li{
 .button:hover {
     border: 1px solid white;
     background-color: #7CBB02;
-
+}
+/* hero image */
+.hero_block {
+    width: 80%;
+    height: 710px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.hero_img {
+    left: 150px;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+}
+.hero_img>h1 {
+    width: 50%;
+    position: absolute;
+    bottom: 250px;
+    left: 0px;
+    font-size: 4.5rem;
+    color: white;
+}
+.hero_text>a{
+    position: absolute;
+    bottom: 143px;
+    left: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.hero_text>a:hover{
+    background-color: #7CBB02;
 }
