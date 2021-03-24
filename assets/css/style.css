@@ -10,18 +10,28 @@
     clear: both;
 }
 body{
-    background-color: red;
     min-width: 1400px;
 }
-/* header section */
+/*******************************************************
+ header section ****************************************/
+header{
+    height: 800px;
+    background-color: #0C325A;
+    background-image: url(/assets/img/background-header.png);
+    background-position: 115% 110%;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+/* navbar */
 .nav_bar{
-    height: 50px;
+    height: 30px;
     width: 80%;
     margin: auto;
-    background-color: green;
-    line-height: 50px;
+    line-height: 30px;
     vertical-align: middle;
-    margin-top: 10px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
 }
 .logo{
     width: 15%;
@@ -42,10 +52,21 @@ ul>li>a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    padding: 0 20px;
 }
 ul{
     list-style: none;
 }
 ul>li{
     display: inline-block;
+}
+.button{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 1px;
+}
+.button:hover {
+    border: 1px solid white;
+    background-color: #7CBB02;
+
 }
